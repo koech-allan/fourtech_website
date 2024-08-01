@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+/*a.hover{*/
+/*    border-bottom: 3px solid #ffffff;*/
+/*}*/
+.nav-link:hover {
+    text-decoration: underline;
+    border-bottom: solid 3px chocolate;
+}
+.para{
+    padding-left: 5%;
+    font-size: xx-large;
+}
+
+.first-div, .second-div, .third-div{
+    height: 20vh;
+    max-width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: start;
+    justify-items: center;
+    justify-content: center;
+
+}
+.maindiv{
+    height: 20vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+h6{
+    font-weight: bold;
+}
+button{
+    background-color: black;
+    align-items: start;
+    color: #ffffff;
+    border-color: #007bff;
+    height: 45px;
+    width: 190px;
+    font-size: 20px;
+}
+.contact-us-btn{
+    justify-content: center;
+    display: flex;
+}
+.telephone{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+/*start of social media*/
+.social-media-icons ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+.social-media-icons a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px;
+
+}
+
+.social-media-icons a:nth-child(1) i {
+    color: #ffffff;
+}
+
+.social-media-icons a:nth-child(2) i {
+    color: #ffffff;
+}
+
+.social-media-icons a:nth-child(3) i {
+    color: #edfffa;
+}
+
+.social-media-icons a:nth-child(4) i {
+    color: #ffffff;
+}
+.social-media-icons a:nth-child(5) i {
+    color: #ffffff;
+}
+
+.social-media-icons a i:hover{
+    color: #0e36ff;
+}
+.fa{
+    height: 8px;
+}
+/*end of social media*/
